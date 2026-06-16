@@ -2,6 +2,7 @@ import { m } from 'framer-motion';
 import { Send } from 'lucide-react';
 import { SectionHeader } from '../components/SectionHeader.jsx';
 import { contactLinks } from '../data/portfolio.js';
+const serverId = import.meta.env.VITE_SERVER_ID;
 
 export default function Contact() {
   return (
@@ -62,7 +63,7 @@ export default function Contact() {
       </div>
 
       <footer className="mt-20 py-8 text-center text-sm font-semibold text-slate-500">
-        © 2026 Jagadeesh. Built with React, Tailwind CSS, and a passion for technology 2.
+        © 2026 Jagadeesh. Built with React, Tailwind CSS, and a passion for technology {serverId}.
       </footer>
     </section>
   );
