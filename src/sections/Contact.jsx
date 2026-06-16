@@ -62,7 +62,7 @@ export default function Contact() {
       </div>
 
       <footer className="mt-20 py-8 text-center text-sm font-semibold text-slate-500">
-        © 2026 Jagadeesh. Built with React, Tailwind CSS, and a passion for technology 1.
+        © 2026 Jagadeesh. Built with React, Tailwind CSS, and a passion for technology 2.
       </footer>
     </section>
   );
